@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <h1>Título del sitio web</h1>
+        </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <style>
+            header {
+                display: grid ;
+            }
+
+            #logo {
+                align-items: center;
+            }
+
+            .orden-elementos-1 {
+                display: flex; /* Habilita el uso de Flexbox */
+                flex-direction: row; /* Alinea los elementos en una fila (este es el valor predeterminado) */
+                align-items: center; /* Centra los elementos verticalmente dentro del contenedor */
+                justify-content: space-between; /* Distribuye el espacio entre los elementos, con espacio igual entre ellos */
+                padding: 10px 20px; /* Espaciado interno alrededor del contenido */
+                background-color: #f4f4f4; /* Color de fondo opcional */
+                }
+            
+            .container {
+                display: flex; /* Usa Flexbox para alinear los elementos en una fila */
+                justify-content: space-between; /* Distribuye el espacio entre el título y el logo */
+                align-items: center; /* Alinea verticalmente los elementos al centro */
+                padding: 10px 20px; /* Espaciado interno alrededor del contenido */
+                background-color: #f4f4f4; /* Color de fondo opcional */
+                }
+
+            #menu-1 {
+                display: flex; /* Usa Flexbox para alinear los elementos en una fila */
+                justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
+                align-items: center; /* Alinea los elementos verticalmente al centro */
+                padding: 0; /* Elimina el espaciado interno si es necesario */
+                margin: 0; /* Elimina el margen si es necesario */
+                list-style: none; /* Quita los puntos de la lista */
+            }
+
+            #menu-2 {
+                display: flex; /* Usa Flexbox para alinear los elementos dentro del contenedor */
+                width: 250px; /* Ancho del menú lateral */
+                padding: 20px; /* Espaciado interno alrededor del contenido del menú */
+                height: 100%; /* Asegura que el menú ocupe toda la altura de la ventana */ }
+        </style>
+    </head>
+    <header class="orden-elementos-1">
+        <div>
+            <div class="container">
+                <h1>Site Name</h1>
+                <img src="ruta-de-la-imagen.jpg" alt="Descripción de la imagen">
+            </div>
+            <div>
+                <ul id="menu-1">
+                    <li class="list-group-item">Home</li>
+                    <li class="list-group-item">Productos</li>
+                    <li class="list-group-item">About</li>
+                    <li class="list-group-item">Contact</li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+    <body class="orden-elementos-1">
+        <div> Caja Lateral Left
+            <div>Controls
+                <div>Video o Audio 1</div>
+                <div>Video o Audio 2</div>
+            </div>
+            <div id="menu-2">
+                <ul class="list-group">
+                    <h3>Menú 1 - Body - Lateral</h3>
+                    <li class="list-group-item">Apps</li>
+                    <li class="list-group-item">Games</li>
+                    <li class="list-group-item">Movies</li>
+                    <li class="list-group-item">Books</li>
+                    <li class="list-group-item">Newspaper</li>
+                </ul>
+            </div>
+        </div>
+        <div>Caja 2 - Rigth
+            <div>                
+                    <ul class="list-group">
+                        <h3>Menú 2</h3>
+                    <li class="list-group-item">Categoría 1</li>
+                    <li class="list-group-item">Categoría 2</li>
+                    <li class="list-group-item">Categoría 3</li>
+                    <li class="list-group-item">Categoría 4</li>
+                </ul>
+            </div>
+            <div>Caja fotos catálogo
+                <div> 
+                    <h4>Aquí irían las fotos </h4>              
+                </div>
+            </div>
+        </div>
+    </body>
+    <header>
+        <div>
+            <div>
+                <ul class="list-group">
+                    <h3>Menú footer</h3>
+                    <li class="list-group-item">Home</li>
+                    <li class="list-group-item">Apps</li>
+                    <li class="list-group-item">Games</li>
+                    <li class="list-group-item">Movies</li>
+                    <li class="list-group-item">Books</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</html>
